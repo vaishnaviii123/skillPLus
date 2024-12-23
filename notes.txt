@@ -1,0 +1,13 @@
+1. In app.js we have to make a root navigator first of all
+2. in the root navigator , we have to install navigation container from 'npm i @react-navigation/native' library and wrap up  
+   our stack with NavigationContainer.
+3. stack define our whole navigation setup .
+4. we have to create stack for application or to calling bottom tab or drawer
+5. In the AppStack , we have to createStackNavigator from npm i @react-navigation/stack library,
+6. we have to create bottom tab navigator and drawer navigator from their official side and call them in our app stack
+7. now, design bottom tab and drawer as well
+8. now for bottom tab , we install plugin npm i @react-navigation/bottom-tabs
+   and from this plugin we call createBottomTabNavigator same for drwaer as well
+9. for drawer , we install drawer plugin ,   npm i @react-navigation/drawer  and call createDrawerNavigator from this library
+10. after that all the bottom tab screens and drawer screens imports in main bottomTabNavigaor and drawerNavigator and screen names put
+     in the under the bottom and drawer navigator
