@@ -6,9 +6,9 @@ const BottomTabStyles = StyleSheet.create({
         flex: 1,
     },
     iconStyle:{
-        width:25,
-        height:25,
-        resizeMode:'contain'
+        width:20,
+        height:20,
+        resizeMode:'contain',
     }
 })
 
